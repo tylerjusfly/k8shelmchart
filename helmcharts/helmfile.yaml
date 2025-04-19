@@ -1,0 +1,9 @@
+repositories: 
+  - name: githelmchart
+    # url: git+https://github.com/tylerjusfly/k8shelmchart?ref=main&parse=0
+    url: git+https://github.com/tylerjusfly/k8shelmchart@postgresdb/postgresdb?ref=main
+
+releases: 
+  - name: helloworlddb
+    chart: githelmchart
+    installed: true
